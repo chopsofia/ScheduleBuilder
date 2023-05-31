@@ -26,6 +26,11 @@ const Teachers = () => {
     addTeacherHandler,
   } = useDepartment();
 
+
+
+
+
+
   useEffect(() => {
     getAllTeacherDepartmentsHandler();
   }, []);
